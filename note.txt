@@ -1,0 +1,8 @@
+Compile PARSEC
+1) Need to config the environment varaible PARSEC as root path
+	export PARSECDIR=/home/panda/github/parsec/parsec-2.1
+   otherwise, source env.sh will report error
+
+2) Need to configure paths of g++ and others. set paths of g++ and GNU bin utils only in config/gcc.bldconf.All other gcc build configuration depends on it.
+	otherwise, report error:
+	make: /n/fs/parsec/local/gcc-4.4.0-static/bin/g++: Command not found

@@ -1,0 +1,4 @@
+Build all benchmarks with gcc-serial compiler
+	parsecmgmt -a build -c gcc-serial
+Run streamcluster benchmark in kernels packages:
+	parsecmgmt -a run -p streamcluster -i test -c gcc-serial
